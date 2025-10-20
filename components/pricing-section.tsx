@@ -9,7 +9,7 @@ const teamMembers = [
     name: "Đào Hữu Quang",
     role: "Frontend Developer",
     position: "Lead Developer",
-    avatar: "/app/assets/img/DaoHuuQuang.jpg",
+    avatar: "/DaoHuuQuang.jpg",
     description: "Chuyên gia React và Next.js với 3+ năm kinh nghiệm",
     skills: ["React", "Next.js", "TypeScript", "TailwindCSS"],
     social: {
@@ -22,7 +22,7 @@ const teamMembers = [
     name: "Võ Quốc Triệu",
     role: "Backend Developer", 
     position: "Senior Developer",
-    avatar: "/app/assets/img/VoQuocTrieu.jpg",
+    avatar: "/VoQuocTrieu.jpg",
     description: "Chuyên gia Node.js và Database với kiến thức sâu về hệ thống",
     skills: ["Node.js", "PostgreSQL", "MongoDB", "Docker"],
     social: {
@@ -35,7 +35,7 @@ const teamMembers = [
     name: "Lai Hữu Triệu",
     role: "UI/UX Designer",
     position: "Design Lead",
-    avatar: "/app/assets/img/LaiHuuTrieu.jpg",
+    avatar: "/LaiHuuTrieu.jpg",
     description: "Thiết kế trải nghiệm người dùng với tư duy sáng tạo",
     skills: ["Figma", "Adobe XD", "Photoshop", "Illustrator"],
     social: {
@@ -48,7 +48,7 @@ const teamMembers = [
     name: "Nguyễn Văn A",
     role: "Full Stack Developer",
     position: "Developer",
-    avatar: "/app/assets/img/DaoHuuQuang.jpg", // Sử dụng lại ảnh có sẵn
+    avatar: "/DaoHuuQuang.jpg", // Sử dụng lại ảnh có sẵn
     description: "Phát triển toàn diện từ frontend đến backend",
     skills: ["React", "Node.js", "Python", "AWS"],
     social: {
@@ -61,7 +61,7 @@ const teamMembers = [
     name: "Trần Thị B",
     role: "DevOps Engineer",
     position: "Infrastructure Lead",
-    avatar: "/app/assets/img/VoQuocTrieu.jpg", // Sử dụng lại ảnh có sẵn
+    avatar: "/VoQuocTrieu.jpg", // Sử dụng lại ảnh có sẵn
     description: "Quản lý hệ thống và triển khai ứng dụng",
     skills: ["Docker", "Kubernetes", "CI/CD", "AWS"],
     social: {
