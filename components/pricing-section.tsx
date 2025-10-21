@@ -45,7 +45,7 @@ const teamMembers = [
     }
   },
   {
-    name: "Nguyễn Văn A",
+    name: "Võ Văn Thành Tài",
     role: "Full Stack Developer",
     position: "Developer",
     avatar: "/DaoHuuQuang.jpg", // Sử dụng lại ảnh có sẵn
@@ -58,7 +58,7 @@ const teamMembers = [
     }
   },
   {
-    name: "Trần Thị B",
+    name: "Đặng Văn Long",
     role: "DevOps Engineer",
     position: "Infrastructure Lead",
     avatar: "/VoQuocTrieu.jpg", // Sử dụng lại ảnh có sẵn
@@ -74,9 +74,9 @@ const teamMembers = [
 
 export function PricingSection() {
   return (
-    <section className="relative py-24 px-4 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section className="relative py-24 px-4 bg-black">
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,140,66,0.1),transparent_70%)]"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_35%_at_50%_0%,rgba(255,140,66,0.08),transparent_60%)]"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
@@ -98,8 +98,10 @@ export function PricingSection() {
             <span className="text-sm font-medium text-white/90">Đội ngũ</span>
           </motion.div>
 
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-[#FF8C42] to-white bg-clip-text text-transparent mb-4">
-            Đội ngũ phát triển
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">
+            <span className="bg-gradient-to-r from-white via-[#FF8C42] to-white bg-clip-text text-transparent" style={{WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>
+              Đội ngũ phát triển
+            </span>
           </h2>
 
           <p className="text-lg text-white/70 max-w-2xl mx-auto">
@@ -189,24 +191,6 @@ export function PricingSection() {
             </motion.div>
           ))}
         </div>
-
-        {/* Bottom CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-center mt-16"
-        >
-          <p className="text-white/70 mb-6 text-lg">Muốn tham gia đội ngũ của chúng tôi?</p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-[#FF8C42] to-[#FF8C42]/80 text-white font-semibold px-8 py-3 rounded-full shadow-lg shadow-[#FF8C42]/25 hover:shadow-[#FF8C42]/40 transition-all duration-300"
-          >
-            Liên hệ chúng tôi →
-          </motion.button>
-        </motion.div>
       </div>
     </section>
   )
