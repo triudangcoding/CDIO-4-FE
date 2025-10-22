@@ -123,7 +123,7 @@ export default function Home() {
               }
             }}
           >
-            <span className="relative z-20">Pricing</span>
+            <span className="relative z-20">Team</span>
           </a>
           <a
             className="relative px-4 py-2 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
