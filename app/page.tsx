@@ -161,7 +161,7 @@ export default function Home() {
               }
             }}
           >
-            <span className="relative z-20">FAQ</span>
+            <span className="relative z-20">Contact</span>
           </a>
         </div>
 
